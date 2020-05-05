@@ -1,1 +1,1 @@
-# API Fun
+# Harry Potter API Fun with Vanilla JS
