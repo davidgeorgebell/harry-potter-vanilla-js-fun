@@ -26,7 +26,7 @@ const fetchData = async () => {
       urls.map(url => fetch(url).then(res => res.json()))
     );
     everyone = people[0].concat(people[1]);
-    return everyone;
+    return displayPeople(everyone);
   } catch (error) {
     console.log(error);
   }

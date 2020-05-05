@@ -73,10 +73,12 @@ select {
 }
 .title {
   text-align: center;
+  margin-bottom: 1em;
 }
 .search {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 2em;
 }
 .people-grid {
   display: grid;
