@@ -29,8 +29,19 @@ const displayPeople = people => {
       person =>
         `<div class='person-item'>
     <h2 class='person-name'>${person.name}</h2>
-    <p class='person-house'>${person.house}</p>
+    <p class='person-house'>${person.house} ${houseName(person.house)}</p>
     </div>`
     );
   peopleGrid.innerHTML = html.join('');
+};
+const houseName = house => {
+  if (house === 'Gryffindor') {
+    return `<span>🦁</span>`;
+  } else if (house === 'Slytherin') {
+    return `<span>🐍</span>`;
+  } else if (house === 'Hufflepuff') {
+    return `<span>🦡</span>`;
+  } else if (house === 'Ravenclaw') {
+    return `<span>🦅</span>`;
+  }
 };
