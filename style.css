@@ -78,3 +78,20 @@ select {
   display: grid;
   grid-template-columns: 1fr;
 }
+.people-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.person-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.08653);
+  padding: 1em;
+}
+.person-house-icon {
+  font-size: 5rem;
+}
