@@ -16,7 +16,6 @@ searchBar.addEventListener('keyup', e => {
       per.name.toLowerCase().includes(searchString) ||
       per.house.toLowerCase().includes(searchString)
   );
-  console.log(filteredPeople);
   displayPeople(filteredPeople);
 });
 
