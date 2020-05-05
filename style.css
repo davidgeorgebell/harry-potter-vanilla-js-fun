@@ -36,7 +36,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: lightblue;
+  background: lightseagreen;
   font-size: 18px;
 }
 
@@ -96,4 +96,7 @@ select {
 }
 .person-house-icon {
   font-size: 5rem;
+}
+.person-name {
+  margin-bottom: 0.5em;
 }

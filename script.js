@@ -41,7 +41,9 @@ const displayPeople = people => {
         `<div class='person-item'>
     <h2 class='person-name'>${person.name}</h2>
     <p class='person-house'>${person.house}</p>
-    <span class='person-house-icon'>${houseName(person.house)}</span>
+    <span class='person-house-icon' role='image'>${houseName(
+      person.house
+    )}</span>
     </div>`
     );
   peopleGrid.innerHTML = html.join('');
